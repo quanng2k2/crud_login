@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 40px ;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://colorlib.com/etc/lf/Login_v4/images/bg-01.jpg);
+}
+
+.loginFrom {
+    padding: 20px;
+    text-align: center;
+    width: 500px ;
+    height: 700px;
+    margin-top: 20px;
+    background-color: floralwhite;
+    border-radius: 20px;
+}
+
+input {
+    height: 30px;
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 5px;
+    background-color: floralwhite;
+}
+
+.labelOne {
+    display: block;
+    text-align: initial;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.getPass {
+    text-align:right ;
+    padding: 10px;
+}
+
+.buttonPretty {
+    height: 40px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.buttonSlice {
+    font-size: 30px;
+    padding: 30px;
+}
+
+.sign {
+    padding: 20px;
+}
+
+.icon-social {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.textSign {
+    padding:80px;
+}
+
+.fa-facebook:hover{
+    color: #1877F2;
+    background-color: white;
+    
+}
+
+.fa-twitter:hover{
+    background-color: #1DA1F2;
+    color: white;
+    border-radius: 10px;
+}
+
+.fa-square-instagram:hover{
+    background-color: linear-gradient(45deg, blue, red);
+}
